@@ -39,11 +39,4 @@ public class FileReader {
         }
         return profile;
     }
-
-    public static void main(String[] args) {
-        File testFile = new File("E:\\JavaRushTasks\\JavaRushTasks\\stage1-module6-io-task1\\src\\main\\resources\\Profile.txt");
-        FileReader fileReader = new FileReader();
-        Profile profile = fileReader.getDataFromFile(testFile);
-        System.out.println(profile.toString());
-    }
 }
